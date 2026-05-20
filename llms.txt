@@ -1,12 +1,15 @@
-# Copilot CLI Switch Gate MCP
+# Copilot CLI Switch Gate
 
-Paid remote MCP for Copilot CLI switch gate MCP, structured receipts, audit logs, and reviewer-ready evidence.
+Copilot CLI Switch Gate is a hosted remote MCP for Copilot CLI switch gate MCP.
 
 Website: https://copilotcliswitchgate.clauxel.com/
+Docs pattern reference: https://github.com/clauxel/MiroFish
+Primary keyword: Copilot CLI switch gate MCP
+Type: MCP
+Default plan: team
 MCP endpoint: https://copilotcliswitchgate.clauxel.com/mcp
 Server card: https://copilotcliswitchgate.clauxel.com/server-card.json
-Docs: https://github.com/clauxel/copilot-cli-switch-gate-mcp
-
-Use case: Copilot CLI switch gate MCP with structured receipts.
-Authentication: Bearer token required for production use.
+Registry name: com.clauxel.copilotcliswitchgate/copilotcliswitchgate-mcp
 Tools: check_cli_switch_gate, map_cli_command, classify_migration_risk, issue_switch_receipt, export_switch_log
+
+Public boundary: docs-only repository; no production source code or secrets.
