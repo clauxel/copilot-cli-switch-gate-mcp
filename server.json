@@ -1,13 +1,11 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.clauxel.copilotcliswitchgate/copilotcliswitchgate-mcp",
-  "description": "Copilot CLI Switch Gate is a hosted remote MCP for Copilot CLI switch gate MCP.",
+  "title": "Copilot CLI Switch Gate MCP",
+  "description": "Paid remote MCP for Copilot CLI switch gate MCP, structured receipts, audit logs, and reviewer-ready evidence.",
   "version": "1.0.0",
-  "website_url": "https://copilotcliswitchgate.clauxel.com/",
-  "repository": {
-    "url": "https://github.com/clauxel/copilot-cli-switch-gate-mcp",
-    "source": "github"
-  },
+  "websiteUrl": "https://copilotcliswitchgate.clauxel.com/",
+  "documentationUrl": "https://github.com/clauxel/copilot-cli-switch-gate-mcp",
+  "serverCardUrl": "https://copilotcliswitchgate.clauxel.com/server-card.json",
   "remotes": [
     {
       "type": "streamable-http",
@@ -15,17 +13,16 @@
       "headers": [
         {
           "name": "Authorization",
-          "description": "Bearer token from the product website.",
-          "is_required": true,
-          "is_secret": true
+          "description": "Bearer token from the product website."
         }
       ]
     }
   ],
-  "_meta": {
-    "io.modelcontextprotocol.registry/publisher-provided": {
-      "title": "Copilot CLI Switch Gate MCP",
-      "server_card_url": "https://copilotcliswitchgate.clauxel.com/server-card.json"
-    }
-  }
+  "tags": [
+    "copilot",
+    "cli",
+    "switch",
+    "gate",
+    "remote-mcp"
+  ]
 }
